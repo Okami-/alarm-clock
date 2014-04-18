@@ -1,8 +1,24 @@
+h1, h2, h3, h4, h5, p, span {
+  font-family: 'Nixie One', cursive;
+}
+
 body {
   margin: 0 auto;
   width: 960px;
 }
 
-.main .alarm-clock h1{
+.vertical .alarm-clock h1{
   text-align: center;
+}
+
+#clock {
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  width: 960px;
+}
+
+.control-panel {
+  width: 50%;
+  margin: 25px auto;
 }

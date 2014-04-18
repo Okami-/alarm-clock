@@ -6,11 +6,16 @@
   <link rel="stylesheet" type="text/css" media="screen" href="alarm-clock.css" />
 </head>
 <body>
-  <div class="main">
+  <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+  <div class="vertical">
     <div class="alarm-clock">
-      <h1>Alarm Clock</h1>
-      <span class="current-time"></span>
-
+      <h1>AC</h1>
+      <span id ="clock">&nbsp;</span>
+    </div>
+    <div class="control-panel">
+      <button class="set-time">Set Time</button>
+      <button class="reset-time">Reset Time</button>
+      <button class="change-alarm-tone">Change Alarm Tone</button>
     </div>
   </div>
   <script src="alarm-clock.js"></script>
