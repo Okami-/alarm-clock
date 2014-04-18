@@ -1,0 +1,8 @@
+body {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.main .alarm-clock h1{
+  text-align: center;
+}
